@@ -4,3 +4,58 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+/* shared style*/
+.flex{
+    display:flex;
+}
+
+.primary-btn{
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    background: rgb(221, 0, 0);
+    font-size: 1.2rem;
+    font-weight: 400;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* custom style*/
+
+.banner{
+    max-width: 1240px;
+    margin: 50px auto;
+    gap: 50px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    padding-left: 50px;
+    flex: 1;
+}
+.banner-heading{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.banner-paragraph{
+    margin: 20px 0;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    max-width: 90%;
+}
+.banner-img{
+    flex: 1;
+}
+.footballer-img{
+    display: block;
+    /* max-width: 50%; */
+    
+}
