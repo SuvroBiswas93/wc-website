@@ -279,16 +279,28 @@
 }
 
 
-/* @media  screen and (max-width:992px) {
+@media  screen and (min-width:577px) and (max-width:992px){
     .banner{
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 0 30px;
+        margin: 0 auto;
     }
     .banner-heading{
-        font-size: 2.5rem;
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    .banner-paragraph{
+        font-size: 0.8rem;
+    }
+    .footballer-img {
+        max-width: 100%;
+        height: auto;
+    }
+    .primary-btn{
+        margin-bottom:10px ;
     }
     .button-and-card{
         flex-direction: column;
@@ -313,4 +325,4 @@
     .footer-list li{
         margin-bottom: 40px;
     }
-} */
+}
